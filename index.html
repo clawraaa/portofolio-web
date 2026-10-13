@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara — Professional Graphic Designer Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Separate CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">CLARA<span>.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Professional Graphic Designer</span>
+                <h1>Hi there! I'm <span class="gradient-text">Clara</span></h1>
+                <p>Turning bold ideas and visual visions into aesthetic, impactful, and professional graphic designs that speak louder than words.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Explore Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+                <div class="social-icons">
+                    <a href="mailto:kelaragita2@gmail.com" target="_blank" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://instagram.com/cla.rr4" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@callmeccla" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://wa.me/6281287785685" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Clara Graphic Designer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>A quick glimpse into my background, passion, and design toolkit.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Where Creativity Meets Visual Strategy</h3>
+                    <p>I am a professional graphic designer specializing in brand identity, visual storytelling, illustration, and digital content. With a sharp eye for detail and a passion for clean aesthetics, I help brands and individuals stand out in a crowded digital space.</p>
+                    <div class="skills-chips">
+                        <span>Adobe Photoshop</span>
+                        <span>Adobe Illustrator</span>
+                        <span>Figma</span>
+                        <span>Brand Identity</span>
+                        <span>Social Media Design</span>
+                        <span>Typography</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h3>3+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>150+</h3>
+                        <p>Projects Done</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>100%</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Selected Works</h2>
+                <p>A showcase of my recent design projects and creative explorations.</p>
+            </div>
+            
+            <!-- Category Filter -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="illustration">Illustration</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Item 1 -->
+                <div class="portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=600&q=80" alt="Brand Identity Project">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity & Logo</h3>
+                        <p>Branding</p>
+                        <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="portfolio-item" data-category="social">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80" alt="Social Media Feed Design">
+                    <div class="portfolio-overlay">
+                        <h3>Social Media Campaign</h3>
+                        <p>Social Media</p>
+                        <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="portfolio-item" data-category="illustration">
+                    <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80" alt="Digital Illustration">
+                    <div class="portfolio-overlay">
+                        <h3>Modern Vector Art</h3>
+                        <p>Illustration</p>
+                        <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=600&q=80" alt="Packaging Design">
+                    <div class="portfolio-overlay">
+                        <h3>Product Packaging Design</h3>
+                        <p>Branding</p>
+                        <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="portfolio-item" data-category="social">
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=600&q=80" alt="Poster Design">
+                    <div class="portfolio-overlay">
+                        <h3>Creative Event Poster</h3>
+                        <p>Social Media</p>
+                        <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="portfolio-item" data-category="illustration">
+                    <img src="https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80" alt="UI Art">
+                    <div class="portfolio-overlay">
+                        <h3>Concept Visual Graphics</h3>
+                        <p>Illustration</p>
+                        <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+                <p>Comprehensive design solutions tailored to elevate your brand presence.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3>Brand Identity & Logo</h3>
+                    <p>Crafting unique logos, color palettes, typography systems, and comprehensive brand guidelines from scratch.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                    <h3>Social Media Content</h3>
+                    <p>Designing engaging Instagram feeds, promotional banners, interactive post templates, and catchy stories that convert.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+                    <h3>Marketing & Print Design</h3>
+                    <p>Delivering high-impact brochures, packaging designs, posters, business cards, and other print-ready marketing materials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Let's create something awesome together!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let’s Connect!</h3>
+                    <p>Got a cool project in mind or want to chat about design services? Reach out through the channels below:</p>
+                    
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <a href="mailto:kelaragita2@gmail.com" target="_blank">kelaragita2@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <strong>Phone / WhatsApp</strong>
+                                <a href="https://wa.me/6281287785685" target="_blank">0812-8778-5685</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                            <div>
+                                <strong>Instagram</strong>
+                                <a href="https://instagram.com/cla.rr4" target="_blank">@cla.rr4</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-tiktok"></i>
+                            <div>
+                                <strong>TikTok</strong>
+                                <a href="https://tiktok.com/@callmeccla" target="_blank">@callmeccla</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email / Contact</label>
+                            <input type="text" id="email" required placeholder="Enter your email or phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message / Project Details</label>
+                            <textarea id="message" rows="5" required placeholder="Tell me about your project or design needs..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Clara. All Rights Reserved. Professional Graphic Designer.</p>
+            <div class="footer-socials">
+                <a href="mailto:kelaragita2@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://instagram.com/cla.rr4" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://tiktok.com/@callmeccla" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://wa.me/6281287785685" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Separate JS -->
+    <script src="script.js"></script>
+</body>
+</html>
